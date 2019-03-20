@@ -17,7 +17,6 @@ namespace Ejercicio1
             int suma=0;
             int maximo=int.MinValue;
             int minimo=int.MaxValue;
-            int salida;
             float promedio;
             Console.Title = "Ejercicio 1";
 

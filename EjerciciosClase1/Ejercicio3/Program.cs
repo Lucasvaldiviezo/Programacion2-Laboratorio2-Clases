@@ -10,7 +10,41 @@ namespace Ejercicio3
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio 2";
+            string numeroIngresado;
+            int numeroConvertido;
+            bool validar;
+            int i;
+            int j;
+            int contador=0;
+            Console.Title = "Ejercicio 3";
+            Console.Write("Ingrese un numero: ");
+            numeroIngresado = Console.ReadLine();
+            validar = int.TryParse(numeroIngresado, out numeroConvertido);
+
+            if(validar)
+            {
+                for(i=1;i<=numeroConvertido;i++)
+                {
+                    for(j=1;j<=i;j++)
+                    {
+                        if ((i % j) == 0 && contador < 3)
+                        {
+                            contador++;
+                        }
+                    }
+                    if(contador==2)
+                    {
+                        Console.WriteLine("El numero {0} es primo", i);
+                        contador = 0;
+                    }else
+                    {
+                        contador = 0;
+                    }
+                    
+                }
+
+            }
+            Console.ReadKey();
         }
     }
 }

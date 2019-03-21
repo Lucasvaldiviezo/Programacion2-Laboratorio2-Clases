@@ -11,32 +11,30 @@ namespace Ejercicio4
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio 4";
-            int i;
+            int numeroActual=0;
             int j;
-            int limite=2;
-            int contador=0;
-            int suma=0;
+            int perfectos=0;
+            int suma;;
             Console.WriteLine("Buscando numeros perfectos... ");
-         
-                for (i = 1; i < limite; i++)
+
+            do
+            {
+                numeroActual++;
+                suma = 0;
+                for (j = 1; j < numeroActual; j++)
                 {
-                    for (j = 1; j < i; j++)
+                    if (numeroActual % j == 0)
                     {
-                        if (i % j == 0 && j<i)
-                        {
-                            suma = suma + j;
-                        }
+                        suma = suma + j;
                     }
-                    if(contador<4 && suma==i)
-                    {
-                        contador++;
-                    }else if(contador == 4)
-                    {
-                        break;
-                    }
-                    limite++;
-                    Console.WriteLine("Contador: {0}",contador);
-            }
+                }
+                if (suma == numeroActual)
+                {
+                    Console.WriteLine("El primer numero perfecto es: {0}", suma);
+                    perfectos++;
+                }
+            } while (perfectos != 4);
+
 
             Console.ReadKey();
         }

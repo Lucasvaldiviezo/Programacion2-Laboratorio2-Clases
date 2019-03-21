@@ -35,12 +35,10 @@ namespace Ejercicio3
                     if(contador==2)
                     {
                         Console.WriteLine("El numero {0} es primo", i);
-                        contador = 0;
-                    }else
-                    {
-                        contador = 0;
+                        
                     }
-                    
+                    contador = 0;
+
                 }
 
             }

@@ -23,7 +23,8 @@ namespace Ejercicio7
             int añoActual;
             int i;
             int totalDias=0;
-            string flechaCompleta;
+            DateTime primeraFecha;
+            DateTime fechaActual;
             
             Console.Write("Ingrese Dia de Nacimiento: ");
             dia = Console.ReadLine();
@@ -31,14 +32,15 @@ namespace Ejercicio7
             mes = Console.ReadLine();
             Console.Write("Ingrese Año de Nacimiento: ");
             año = Console.ReadLine();
-
-            flechaCompleta = dia;
-
             validar = int.TryParse(dia, out diaParseado);
             validar2 = int.TryParse(mes, out mesParseado);
             validar3 = int.TryParse(año, out añoParseado);
             añoActual = DateTime.Now.Year;
-            
+            fechaActual = DateTime.Now;
+            primeraFecha = new DateTime(añoParseado, mesParseado, diaParseado);
+
+            totalDias = fechaActual - primeraFecha;
+
             if (validar && validar2 && validar3)
             {
                 for (i = añoParseado; i <= añoActual; i++)
@@ -49,7 +51,6 @@ namespace Ejercicio7
                     }else
                     {
                         totalDias = totalDias + 365;
-
                     }
                 }
             }

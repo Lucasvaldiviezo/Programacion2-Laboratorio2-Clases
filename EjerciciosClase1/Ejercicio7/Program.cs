@@ -22,7 +22,7 @@ namespace Ejercicio7
             int añoParseado;
             int añoActual;
             int i;
-            int totalDias=0;
+            //int totalDias=0;
             DateTime primeraFecha;
             DateTime fechaActual;
             
@@ -39,9 +39,8 @@ namespace Ejercicio7
             fechaActual = DateTime.Now;
             primeraFecha = new DateTime(añoParseado, mesParseado, diaParseado);
 
-            totalDias = fechaActual - primeraFecha;
-
-            if (validar && validar2 && validar3)
+            TimeSpan totalDias = fechaActual.Date - primeraFecha.Date;
+            /*if (validar && validar2 && validar3)
             {
                 for (i = añoParseado; i <= añoActual; i++)
                 {
@@ -53,8 +52,8 @@ namespace Ejercicio7
                         totalDias = totalDias + 365;
                     }
                 }
-            }
-            Console.WriteLine("Usted vivio {0} dias hasta ahora",totalDias);
+            }*/
+            Console.WriteLine("Usted vivio {0} dias hasta ahora",totalDias.Days);
             Console.ReadKey();
         }
     }

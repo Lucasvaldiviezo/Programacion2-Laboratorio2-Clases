@@ -41,7 +41,17 @@ namespace Ejercicio11
                         {
                             minimoActual = valor;
                         }
+                    }else
+                    {
+                        Console.WriteLine("-----------------------------------------------");
+                        Console.WriteLine("Ese valor supera los limites, no se tomara en cuenta");
+                        Console.WriteLine("-----------------------------------------------");
                     }
+                }else
+                {
+                    Console.WriteLine("-------------------");
+                    Console.WriteLine("Eso no es un numero");
+                    Console.WriteLine("-------------------");
                 }
             }
             promedio = total / cantNumeroEntero;

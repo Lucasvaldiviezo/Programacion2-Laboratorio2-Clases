@@ -11,7 +11,7 @@ namespace Ejercicio11
         public static bool Validar(int valor, int min, int max)
         {
             bool retorno=true;
-            if(valor >= max || valor <= min)
+            if(valor > max || valor < min)
             {
                 retorno = false;
             }

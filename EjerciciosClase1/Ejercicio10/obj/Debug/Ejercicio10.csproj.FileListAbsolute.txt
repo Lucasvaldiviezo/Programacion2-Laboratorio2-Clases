@@ -1,0 +1,6 @@
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\bin\Debug\Ejercicio10.exe.config
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\bin\Debug\Ejercicio10.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\bin\Debug\Ejercicio10.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\obj\Debug\Ejercicio10.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\obj\Debug\Ejercicio10.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio10\obj\Debug\Ejercicio10.pdb

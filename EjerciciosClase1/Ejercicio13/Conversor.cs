@@ -32,8 +32,8 @@ namespace Ejercicio13
         public static double BinarioDecimal(string binario)
         {
             double numero;
-
-
+            
+            
 
             return numero;
         }

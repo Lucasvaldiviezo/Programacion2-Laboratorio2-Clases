@@ -31,11 +31,20 @@ namespace Ejercicio13
 
         public static double BinarioDecimal(string binario)
         {
-            double numero;
-            
+            int i=0;
+            double total=0;
+            for(i=0;i <= binario.Length;i++)
+            {
+                if (binario[i] == '1')
+                {
+                    total = total + Math.Pow(1, i + 1);
+                }
+            }
+                
+              
             
 
-            return numero;
+            return total;
         }
     }
 }

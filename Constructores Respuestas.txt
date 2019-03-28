@@ -1,0 +1,5 @@
+1)El new se utiliza para asignar memoria, y el constructor se utiliza para crear un objeto en esa memoria asignada.
+2)Un constructor por defecto es el que se usa cuando se crea un objeto utilizando un tipo de referencia. Este no retorna
+nada, no recibe argumentos e inicializa todos los campos en cero, null o false.
+3)Sino declaro un constructor, al crear un objeto se utiliza un constructor por defecto.
+4)Se ejecuta primero un constructor estatico el cual crea la clase con datos iniciales para sus atributos.

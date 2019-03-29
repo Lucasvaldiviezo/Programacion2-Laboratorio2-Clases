@@ -34,6 +34,14 @@ namespace Ejercicio16
 
         public void CalcularFinal()
         {
+          if(nota1 < 4 && nota2 < 4)
+          {
+                notaFinal = -1;
+          }else
+          {
+                Random auxFinal = new Random();
+                notaFinal = auxFinal.Next(4,10);   
+          }
         }
 
 }

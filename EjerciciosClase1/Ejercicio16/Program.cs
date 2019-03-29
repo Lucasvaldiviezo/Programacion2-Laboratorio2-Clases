@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +22,9 @@ namespace Ejercicio16
             alumno2.Estudiar(5, 4);
             alumno3.Estudiar(6, 8);
             alumno1.CalcularFinal();
+            Thread.Sleep(100);
             alumno2.CalcularFinal();
+            Thread.Sleep(100);
             alumno3.CalcularFinal();
             texto1 = alumno1.Mostrar();
             texto2 = alumno2.Mostrar();

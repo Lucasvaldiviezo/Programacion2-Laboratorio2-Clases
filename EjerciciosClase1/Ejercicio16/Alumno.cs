@@ -28,20 +28,33 @@ namespace Ejercicio16
         /// <param name="nota2Alumno"></param>
         public void Estudiar(byte nota1Alumno, byte nota2Alumno)
         {
-            nota1 = nota1Alumno;
-            nota2 = nota2Alumno;
+            this.nota1 = nota1Alumno;
+            this.nota2 = nota2Alumno;
         }
 
         public void CalcularFinal()
         {
           if(nota1 < 4 && nota2 < 4)
           {
-                notaFinal = -1;
+                this.notaFinal = -1;
           }else
           {
                 Random auxFinal = new Random();
-                notaFinal = auxFinal.Next(4,10);   
+                this.notaFinal = auxFinal.Next(4,10);   
           }
+        }
+
+        public string Mostrar()
+        {
+            string cadena="";
+            if(notaFinal == -1)
+            {
+                cadena = "El alumno desaprobo.";
+            }else
+            {
+                cadena = "Nombre: " + this.nombre + "\nApellido: " + this.apellido + "\nNota 1: " + this.nota1 + "\nNota 2: " + this.nota2 + "\nNota Final: " + this.notaFinal;
+            }
+            return cadena;
         }
 
 }

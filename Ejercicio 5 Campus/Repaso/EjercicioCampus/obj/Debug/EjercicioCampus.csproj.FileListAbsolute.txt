@@ -1,0 +1,7 @@
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\bin\Debug\EjercicioCampus.exe.config
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\bin\Debug\EjercicioCampus.exe
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\bin\Debug\EjercicioCampus.pdb
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\obj\Debug\EjercicioCampus.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\obj\Debug\EjercicioCampus.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\obj\Debug\EjercicioCampus.exe
+D:\Programacion2-Laboratorio2\Ejercicio 5 Campus\Repaso\EjercicioCampus\obj\Debug\EjercicioCampus.pdb

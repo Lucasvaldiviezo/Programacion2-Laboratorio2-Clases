@@ -28,19 +28,27 @@ namespace EjercicioCampus
         public static string MostrarEstante(Estante e)
         {
             string cadena="";
-            string codigoDeBarra;
+            string mensaje="";
             int i;
 
-            cadena = "La ubicacion es: " + e.ubicacionEstante;
+            //Console.WriteLine("La ubicacion es: {0}", e.ubicacionEstante);
+            mensaje = "\n\nLa ubicacion es: " + e.ubicacionEstante;
+
             for (i = 0; i < e.productos.Length; i++)
             {
-                //codigoDeBarra = (string)e.productos[i];
-                if(Object.ReferenceEquals(e.productos[i],null))
+                
+                if(!Object.ReferenceEquals(e.productos[i],null))
                 {
-                    cadena = cadena + "\n" + Producto.MostrarProducto(e.productos[i]);
+                    cadena = cadena + "\n\n" + Producto.MostrarProducto(e.productos[i]);
                 }
                 
+                
             }
+            if (!Object.ReferenceEquals(cadena, ""))
+            {
+                cadena = cadena + mensaje;
+            }
+
 
             return cadena;
         }

@@ -25,17 +25,21 @@ namespace EjercicioCampus
             return productos;
         }
 
-        public string MostrarEstante(Estante e)
+        public static string MostrarEstante(Estante e)
         {
-            string cadena;
+            string cadena="";
             string codigoDeBarra;
             int i;
 
-            cadena = "La ubicacion es: " + this.ubicacionEstante;
-            for (i = 0; i < productos.Length; i++)
+            cadena = "La ubicacion es: " + e.ubicacionEstante;
+            for (i = 0; i < e.productos.Length; i++)
             {
-                codigoDeBarra = (string)productos[i];
-                cadena = cadena + "\n" + Producto.MostrarProducto(productos[i]);
+                //codigoDeBarra = (string)e.productos[i];
+                if(Object.ReferenceEquals(e.productos[i],null))
+                {
+                    cadena = cadena + "\n" + Producto.MostrarProducto(e.productos[i]);
+                }
+                
             }
 
             return cadena;
@@ -51,12 +55,16 @@ namespace EjercicioCampus
             marcaProducto = producto.GetMarca();
             for (i = 0; i < estante.productos.Length; i++)
             {
-                marcaEstante = estante.productos[i].GetMarca();
-                if (marcaProducto == marcaEstante)
+                if(!Object.ReferenceEquals(estante.productos[i],null))
                 {
-                    retorno = true;
-                    break;
+                    marcaEstante = estante.productos[i].GetMarca();
+                    if (marcaProducto == marcaEstante)
+                    {
+                        retorno = true;
+                        break;
+                    }
                 }
+                    
             }
             return retorno;
         }
@@ -71,13 +79,17 @@ namespace EjercicioCampus
             marcaProducto = producto.GetMarca();
             for (i = 0; i < estante.productos.Length; i++)
             {
-                marcaEstante = estante.productos[i].GetMarca();
-                if (marcaProducto != marcaEstante)
+                if (!Object.ReferenceEquals(estante.productos[i], null))
                 {
-                    retorno = true;
-                    break;
+                    marcaEstante = estante.productos[i].GetMarca();
+                    if (marcaProducto != marcaEstante)
+                    {
+                        retorno = true;
+                        break;
+                    }
                 }
             }
+            
             return retorno;
         }
 
@@ -85,7 +97,7 @@ namespace EjercicioCampus
         {
             bool retorno=false;
             int i;
-            if(estante != producto)
+            if(!(estante==producto))
             {
                 for(i=0;i<estante.productos.Length;i++)
                 {
@@ -93,6 +105,7 @@ namespace EjercicioCampus
                     if (Object.ReferenceEquals(estante.productos[i], null))
                     {
                         estante.productos[i] = producto;
+                        retorno = true;
                         break;
                     }
                 }
@@ -101,7 +114,7 @@ namespace EjercicioCampus
             return retorno;
         }
 
-        public static bool operator -(Estante estante, Producto producto)
+        public static Estante operator -(Estante estante, Producto producto)
         {
             bool retorno = false;
             int i;
@@ -113,12 +126,13 @@ namespace EjercicioCampus
                     if (Object.ReferenceEquals(estante.productos[i], producto))
                     {
                         estante.productos[i] = null;
+                        retorno = true;
                         break;
                     }
                 }
 
             }
-            return retorno;
+            return estante;
         }
 
     }

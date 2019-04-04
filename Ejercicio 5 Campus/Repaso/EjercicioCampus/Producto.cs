@@ -35,8 +35,12 @@ namespace EjercicioCampus
 
         public static string MostrarProducto(Producto p)
         {
-            string cadena;
-            cadena = "La marca es " + p.marca + "\nEl codigo de barra es " + p.codigoDeBarra + "\nEl precio es " + p.precio;
+            string cadena = "";
+            if(!Object.ReferenceEquals(p,null))
+            {
+                cadena = "La marca es " + p.marca + "\nEl codigo de barra es " + p.codigoDeBarra + "\nEl precio es " + p.precio;
+            }
+            
             return cadena;
         }
 

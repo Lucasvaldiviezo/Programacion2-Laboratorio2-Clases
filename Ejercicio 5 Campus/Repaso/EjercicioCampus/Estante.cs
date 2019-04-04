@@ -41,17 +41,17 @@ namespace EjercicioCampus
             return cadena;
         }
 
-        public static bool operator ==(Estante e, Producto p)
+        public static bool operator ==(Estante estante, Producto producto)
         {
             bool retorno = false;
             int i;
             string marcaEstante;
             string marcaProducto;
 
-            marcaProducto = p.GetMarca();
-            for (i = 0; i < e.productos.Length; i++)
+            marcaProducto = producto.GetMarca();
+            for (i = 0; i < estante.productos.Length; i++)
             {
-                marcaEstante = e.productos[i].GetMarca();
+                marcaEstante = estante.productos[i].GetMarca();
                 if (marcaProducto == marcaEstante)
                 {
                     retorno = true;
@@ -61,17 +61,17 @@ namespace EjercicioCampus
             return retorno;
         }
 
-        public static bool operator !=(Estante e, Producto p)
+        public static bool operator !=(Estante estante, Producto producto)
         {
             bool retorno = false;
             int i;
             string marcaEstante;
             string marcaProducto;
 
-            marcaProducto = p.GetMarca();
-            for (i = 0; i < e.productos.Length; i++)
+            marcaProducto = producto.GetMarca();
+            for (i = 0; i < estante.productos.Length; i++)
             {
-                marcaEstante = e.productos[i].GetMarca();
+                marcaEstante = estante.productos[i].GetMarca();
                 if (marcaProducto != marcaEstante)
                 {
                     retorno = true;
@@ -81,10 +81,24 @@ namespace EjercicioCampus
             return retorno;
         }
 
-        public static bool operator +(Estante e, Producto p)
+        public static bool operator +(Estante estante, Producto producto)
         {
-            bool retorno=true;
-
+            bool retorno=false;
+            bool valor;
+            int i;
+            if(!(estante == producto))
+            {
+                for(i=0;i<estante.productos.Length;i++)
+                {
+                    valor = Object.ReferenceEquals(estante.productos[i],null);
+                    if (valor)
+                    {
+                        estante.productos[i] = producto;
+                        break;
+                    }
+                }
+               
+            }
             return retorno;
         }
         

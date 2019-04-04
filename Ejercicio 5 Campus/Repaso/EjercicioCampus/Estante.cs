@@ -84,14 +84,13 @@ namespace EjercicioCampus
         public static bool operator +(Estante estante, Producto producto)
         {
             bool retorno=false;
-            bool valor;
             int i;
-            if(!(estante == producto))
+            if(estante != producto)
             {
                 for(i=0;i<estante.productos.Length;i++)
                 {
-                    valor = Object.ReferenceEquals(estante.productos[i],null);
-                    if (valor)
+                    
+                    if (Object.ReferenceEquals(estante.productos[i], null))
                     {
                         estante.productos[i] = producto;
                         break;
@@ -101,6 +100,26 @@ namespace EjercicioCampus
             }
             return retorno;
         }
-        
+
+        public static bool operator -(Estante estante, Producto producto)
+        {
+            bool retorno = false;
+            int i;
+            if (estante == producto)
+            {
+                for (i = 0; i < estante.productos.Length; i++)
+                {
+
+                    if (Object.ReferenceEquals(estante.productos[i], producto))
+                    {
+                        estante.productos[i] = null;
+                        break;
+                    }
+                }
+
+            }
+            return retorno;
+        }
+
     }
 }

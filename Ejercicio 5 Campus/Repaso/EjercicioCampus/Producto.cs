@@ -64,6 +64,7 @@ namespace EjercicioCampus
             {
                 retorno = true;
             }
+            //return !(p1 == p2);
             return retorno;
         }
 

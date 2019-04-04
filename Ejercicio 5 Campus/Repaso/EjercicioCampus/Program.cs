@@ -15,13 +15,17 @@ namespace EjercicioCampus
             Producto producto1 = new Producto("Pepitos","123",30);
             codigoDeBarras = (string)producto1;
             string marca = "Pepitos";
-            string auxMarca;
             bool check;
 
 
             check = (producto1 == marca);
-
+            if(check == true)
+            {
+                Console.WriteLine("Las marcas son iguales");
+                
+            }
             Console.WriteLine("El codigo de barra es: {0}", codigoDeBarras);
+
             Console.ReadKey();
         }
     }

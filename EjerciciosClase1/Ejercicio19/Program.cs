@@ -11,7 +11,7 @@ namespace Ejercicio19
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio 19";
-            Sumador suma = new Sumador(4);
+            Sumador suma = new Sumador(3);
             Sumador suma2 = new Sumador(5);
             long numero1 = 2;
             long numero2 = 3;

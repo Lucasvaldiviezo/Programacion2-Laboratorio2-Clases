@@ -1,0 +1,10 @@
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\bin\Debug\ProbandoQueOnda.exe.config
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\bin\Debug\ProbandoQueOnda.exe
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\bin\Debug\ProbandoQueOnda.pdb
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.Properties.Resources.resources
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.csproj.GenerateResource.cache
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.exe
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.pdb
+D:\Programacion2-Laboratorio2\ProbandoQueOnda\ProbandoQueOnda\obj\Debug\ProbandoQueOnda.Probando.resources

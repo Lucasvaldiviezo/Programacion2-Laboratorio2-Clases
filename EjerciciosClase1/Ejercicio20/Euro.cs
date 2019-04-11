@@ -40,7 +40,7 @@ namespace Ejercicio20
         public static explicit operator Dolar(Euro e)
         {
             float auxCoti = Euro.GetCotizacion();
-            double resultado = e.cantidad / auxCoti;
+            double resultado = e.cantidad * auxCoti;
             Dolar auxDolar = new Dolar(resultado);
             return auxDolar;
         }

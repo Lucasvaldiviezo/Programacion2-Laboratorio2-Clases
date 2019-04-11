@@ -5,3 +5,10 @@ D:\VisualStudio\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.csprojAssemblyR
 D:\VisualStudio\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
 D:\VisualStudio\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.exe
 D:\VisualStudio\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\bin\Debug\Ejercicio1.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio1\obj\Debug\Ejercicio1.pdb

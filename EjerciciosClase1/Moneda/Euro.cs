@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio20
+namespace Moneda
 {
-    public class Peso
+    public class Euro
     {
         private double cantidad;
         private static float cotizRespectoDolar;
 
-        static Peso()
+        static Euro()
         {
-            cotizRespectoDolar=42.99f;
+            cotizRespectoDolar = 1.13f;
         }
 
-        public Peso(double cantidad)
+        public Euro(double cantidad)
         {
             this.cantidad = cantidad;
         }
 
-        public Peso(double cantidad, float cotizacion)
+        public Euro(double cantidad, float cotizacion)
         {
             this.cantidad = cantidad;
             cotizRespectoDolar = cotizacion;
@@ -37,28 +37,29 @@ namespace Ejercicio20
             return this.cantidad;
         }
 
-        public static explicit operator Dolar(Peso p)
+        public static explicit operator Dolar(Euro e)
         {
-            float auxCoti = Peso.GetCotizacion();
-            double resultado = p.cantidad / auxCoti;
+            float auxCoti = Euro.GetCotizacion();
+            double resultado = e.cantidad * auxCoti;
             Dolar auxDolar = new Dolar(resultado);
             return auxDolar;
         }
 
-        public static explicit operator Euro(Peso p)
+        public static explicit operator Peso(Euro e)
         {
-            Dolar auxDolar = (Dolar)p;
-            float auxCoti = Euro.GetCotizacion();
+            Dolar auxDolar = (Dolar)e;
+            float auxCoti = Peso.GetCotizacion();
             double resultado = auxDolar.GetCantidad() * auxCoti;
-            Euro auxPeso = new Euro(resultado);
+            Peso auxPeso = new Peso(resultado);
             return auxPeso;
         }
 
-        public static implicit operator Peso(double d)
+        public static implicit operator Euro(double d)
         {
             double cantidad = d * cotizRespectoDolar;
-            Peso auxPeso = new Peso(cantidad);
-            return auxPeso;
+            Euro auxEuro = new Euro(cantidad);
+            return auxEuro;
         }
+
     }
 }

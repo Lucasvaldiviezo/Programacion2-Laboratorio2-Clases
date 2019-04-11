@@ -1,0 +1,6 @@
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\bin\Debug\Moneda.dll
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\bin\Debug\Moneda.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\obj\Debug\Moneda.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\obj\Debug\Moneda.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\obj\Debug\Moneda.dll
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Moneda\obj\Debug\Moneda.pdb

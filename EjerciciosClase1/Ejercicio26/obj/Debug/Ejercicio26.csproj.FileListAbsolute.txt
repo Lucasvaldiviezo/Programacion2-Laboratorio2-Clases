@@ -1,0 +1,7 @@
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\bin\Debug\Ejercicio26.exe.config
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\bin\Debug\Ejercicio26.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\bin\Debug\Ejercicio26.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\obj\Debug\Ejercicio26.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\obj\Debug\Ejercicio26.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\obj\Debug\Ejercicio26.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio26\obj\Debug\Ejercicio26.pdb

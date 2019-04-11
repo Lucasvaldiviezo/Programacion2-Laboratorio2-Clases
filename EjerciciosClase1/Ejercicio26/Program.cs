@@ -14,10 +14,10 @@ namespace Ejercicio26
             List<double> enteros = new List<double>(); ;
             int cantidad = 20;
             int i;
-            Random rnd = new Random();
+            Random r = new Random();
             for(i=0;i<cantidad;i++)
             {
-                double numero = rnd.Next(-100, 100);
+                double numero = r.Next(-100, 100);
                 if(numero!=0)
                 {
                     enteros.Add(numero);
@@ -29,7 +29,39 @@ namespace Ejercicio26
                 Console.WriteLine("Numero: {0}",entero);
             }
 
+            enteros.Sort(Program.OrdenarDescendente);
+
+            Console.WriteLine("-----------Lista Ordenada Positivos-----------");
+            foreach (double entero in enteros)
+            {
+                if(entero > 0)
+                {
+                    Console.WriteLine("Numero: {0}", entero);
+                }
+                
+            }
+
+            enteros.Sort();
+
+            Console.WriteLine("-----------Lista Ordenada Negativos-----------");
+            foreach (double entero in enteros)
+            {
+                if (entero < 0)
+                {
+                    Console.WriteLine("Numero: {0}", entero);
+                }
+
+            }
+
             Console.ReadKey();
+
+           
         }
+
+        private static int OrdenarDescendente(double numero1, double numero2)
+        {
+            return -numero1.CompareTo(numero2);
+        }
+
     }
 }

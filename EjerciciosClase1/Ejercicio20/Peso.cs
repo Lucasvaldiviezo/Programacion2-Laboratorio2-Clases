@@ -36,5 +36,29 @@ namespace Ejercicio20
         {
             return this.cantidad;
         }
+
+        public static explicit operator Dolar(Peso p)
+        {
+            float auxCoti = Peso.GetCotizacion();
+            double resultado = p.cantidad / auxCoti;
+            Dolar auxDolar = new Dolar(resultado);
+            return auxDolar;
+        }
+
+        public static explicit operator Euro(Peso p)
+        {
+            Dolar auxDolar = (Dolar)p;
+            float auxCoti = Euro.GetCotizacion();
+            double resultado = auxDolar.GetCantidad() * auxCoti;
+            Euro auxPeso = new Euro(resultado);
+            return auxPeso;
+        }
+
+        public static implicit operator Peso(double d)
+        {
+            double cantidad = d * cotizRespectoDolar;
+            Peso auxPeso = new Peso(cantidad);
+            return auxPeso;
+        }
     }
 }

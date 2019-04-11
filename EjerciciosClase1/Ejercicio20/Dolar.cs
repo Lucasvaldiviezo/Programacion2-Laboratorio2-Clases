@@ -55,7 +55,6 @@ namespace Ejercicio20
 
         public static implicit operator Dolar(double d)
         {
-            
             double cantidad = d * cotizRespectoDolar;
             Dolar auxDolar = new Dolar(cantidad);
             return auxDolar;

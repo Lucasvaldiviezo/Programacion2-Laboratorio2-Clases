@@ -10,7 +10,9 @@ namespace Ejercicio20
     {
         static void Main(string[] args)
         {
-
+            Peso peso1 = new Peso(100);
+            Dolar dolar1 = new Dolar(100);
+            Euro euro1 = new Euro(100);
         }
     }
 }

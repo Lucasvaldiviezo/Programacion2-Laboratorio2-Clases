@@ -1,0 +1,20 @@
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe.config
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.pdb
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.csprojAssemblyReference.cache
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.exe
+C:\Users\Windows10\Desktop\Seba\Proyectos para ejercicios\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.pdb
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe.config
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.exe
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.pdb
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.pdb
+C:\Bapro\Listas\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe.config
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.exe
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\bin\Debug\EjemploColecciones.pdb
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.csprojAssemblyReference.cache
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.exe
+C:\Users\alumno\Downloads\paraMostrarEnClase-master\paraMostrarEnClase-master\EjemploColecciones\EjemploColecciones\obj\Debug\EjemploColecciones.pdb

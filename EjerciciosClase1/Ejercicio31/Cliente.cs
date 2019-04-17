@@ -11,7 +11,7 @@ namespace Ejercicio31
         private string nombre;
         private int numero;
 
-        private string Nombre
+        public string Nombre
         {
             get
             {
@@ -24,7 +24,7 @@ namespace Ejercicio31
             
         }
 
-        private int Numero
+        public int Numero
         {
             get
             {

@@ -8,5 +8,13 @@ namespace Ejercicio31
 {
     public class Negocio
     {
+        private PuestoAtencion caja;
+        private Queue<Cliente> clientes = new Queue<Cliente>();
+        private string nombre;
+
+        public Cliente Cliente
+        {
+
+        }
     }
 }

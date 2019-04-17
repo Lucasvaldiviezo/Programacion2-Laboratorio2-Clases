@@ -20,8 +20,26 @@ namespace Ejercicio31
         {
             get
             {
-                return numeroActual;
+                return numeroActual++;
             }
+        }
+
+        static PuestoAtencion()
+        {
+            numeroActual = 0;
+        }
+
+        public PuestoAtencion(Puesto puesto)
+        {
+            this.puesto = puesto;
+        }
+
+        public bool Atender(Cliente cli)
+        {
+            bool time = false;
+            System.Threading.Thread.Sleep(100);
+            time = true;
+            return time;
         }
     }
 }

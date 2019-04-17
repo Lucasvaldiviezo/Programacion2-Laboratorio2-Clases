@@ -14,7 +14,27 @@ namespace Ejercicio31
 
         public Cliente Cliente
         {
+            set
+            {
+                
+                if(!clientes.Contains(value))
+                {
+                    clientes.Enqueue(value);
+                }
+            }
+            get
+            {
+                return clientes.Dequeue();
+            }
+        }
 
+        public Negocio()
+        {
+            caja = new PuestoAtencion(Puesto.Caja1);
+        }
+        public Negocio(string nombre)
+        {
+            this.nombre = nombre;
         }
     }
 }

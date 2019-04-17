@@ -8,8 +8,8 @@ namespace Ejercicio31
 {
     public enum Puesto
     {
-        caja1,
-        caja2
+        Caja1,
+        Caja2
     }
     public class PuestoAtencion
     {

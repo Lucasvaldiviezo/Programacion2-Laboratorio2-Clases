@@ -1,0 +1,7 @@
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\bin\Debug\Ejercicio27.exe.config
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\bin\Debug\Ejercicio27.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\bin\Debug\Ejercicio27.pdb
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\obj\Debug\Ejercicio27.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\obj\Debug\Ejercicio27.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\obj\Debug\Ejercicio27.exe
+D:\Programacion2-Laboratorio2\EjerciciosClase1\Ejercicio27\obj\Debug\Ejercicio27.pdb

@@ -10,7 +10,7 @@ namespace Ejercicio26
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio 26";
+            Console.Title = "Ejercicio 27";
             List<double> enteros = new List<double>(); ;
             int cantidad = 20;
             int i;
@@ -31,7 +31,7 @@ namespace Ejercicio26
 
             enteros.Sort(Program.OrdenarDescendente);
 
-            Console.WriteLine("-----------Lista Ordenada Positivos-----------");
+            Console.WriteLine("---Ordenada Positivos---");
             foreach (double entero in enteros)
             {
                 if(entero > 0)
@@ -43,7 +43,7 @@ namespace Ejercicio26
 
             enteros.Sort();
 
-            Console.WriteLine("-----------Lista Ordenada Negativos-----------");
+            Console.WriteLine("---Ordenada Negativos---");
             foreach (double entero in enteros)
             {
                 if (entero < 0)

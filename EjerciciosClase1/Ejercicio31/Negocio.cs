@@ -41,7 +41,7 @@ namespace Ejercicio31
             bool retorno = false;
             foreach(Cliente auxCliente in n.clientes)
             {
-               if(auxCliente.Numero == c.Numero)
+               if(auxCliente == c)
                {
                     retorno = true;
                     break;
@@ -53,18 +53,47 @@ namespace Ejercicio31
         public static bool operator !=(Negocio n, Cliente c)
         {
 
-            bool retorno = false;
+            bool retorno = true;
             foreach (Cliente auxCliente in n.clientes)
             {
-                if (auxCliente.Numero != c.Numero)
+                if (auxCliente == c)
                 {
-                    retorno = true;
+                    retorno = false;
                     break;
                 }
             }
             return retorno;
         }
 
+        public static bool operator +(Negocio n, Cliente c)
+        {
+            bool retorno = false;
+            if(!(n == c))
+            {
+                n.clientes.Enqueue(c);
+                retorno = true;
+            }
+
+            return retorno;
+        }
+
+        public static bool operator -(Negocio n, Cliente c)
+        {
+            bool retorno = false;
+            if (n == c)
+            {
+                n.clientes.Dequeue();
+                retorno = true;
+            }
+
+            return retorno;
+        }
+
+        public static bool operator ~(Negocio n, Cliente c)
+        {
+
+        }
 
     }
+        
 }

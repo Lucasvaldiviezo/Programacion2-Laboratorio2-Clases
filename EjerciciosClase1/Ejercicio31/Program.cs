@@ -10,6 +10,9 @@ namespace Ejercicio31
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio 31";
+            Negocio josimar = new Negocio();
+            Console.ReadKey();
         }
     }
 }

@@ -9,18 +9,14 @@ namespace Ejercicio31
     public class Negocio
     {
         private PuestoAtencion caja;
-        private Queue<Cliente> clientes = new Queue<Cliente>();
+        private Queue<Cliente> clientes;
         private string nombre;
 
         public Cliente Cliente
         {
             set
             {
-                
-                if(!clientes.Contains(value))
-                {
                     clientes.Enqueue(value);
-                }
             }
             get
             {
@@ -31,10 +27,44 @@ namespace Ejercicio31
         public Negocio()
         {
             caja = new PuestoAtencion(Puesto.Caja1);
+            clientes = new Queue<Cliente>();
+            
         }
         public Negocio(string nombre)
         {
             this.nombre = nombre;
         }
+
+        public static bool operator ==(Negocio n, Cliente c)
+        {
+            
+            bool retorno = false;
+            foreach(Cliente auxCliente in n.clientes)
+            {
+               if(auxCliente.Numero == c.Numero)
+               {
+                    retorno = true;
+                    break;
+               }
+            }
+            return retorno;
+        }
+
+        public static bool operator !=(Negocio n, Cliente c)
+        {
+
+            bool retorno = false;
+            foreach (Cliente auxCliente in n.clientes)
+            {
+                if (auxCliente.Numero != c.Numero)
+                {
+                    retorno = true;
+                    break;
+                }
+            }
+            return retorno;
+        }
+
+
     }
 }

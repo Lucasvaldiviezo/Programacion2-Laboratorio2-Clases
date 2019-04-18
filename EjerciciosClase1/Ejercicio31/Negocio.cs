@@ -24,6 +24,14 @@ namespace Ejercicio31
             }
         }
 
+        public int ClientesPendientes
+        {
+            get
+            {
+                return clientes.Count();
+            }
+        }
+
         public Negocio()
         {
             caja = new PuestoAtencion(Puesto.Caja1);
@@ -89,9 +97,14 @@ namespace Ejercicio31
             return retorno;
         }
 
-        public static bool operator ~(Negocio n, Cliente c)
+        public static bool operator ~(Negocio n)
         {
-
+            bool retorno = false;
+            if(n.caja.Atender(n.Cliente))
+            {
+                retorno = true;
+            }
+            return retorno;
         }
 
     }

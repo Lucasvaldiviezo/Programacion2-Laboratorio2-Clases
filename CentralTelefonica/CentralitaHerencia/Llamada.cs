@@ -51,10 +51,7 @@ namespace CentralitaHerencia
         public string Mostrar()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendLine("Numero Origen: ");
-            mostrar.AppendLine(nroOrigen);
-            mostrar.AppendLine("/ Numero Destino: ");
-            mostrar.AppendLine(nroDestino);
+            mostrar.AppendFormat("Numero Origen: {0}\nNumero Destino: {1}\nDistancia: {2}",NroOrigen,NroDestino,Duracion);
 
             return mostrar.ToString();
         }

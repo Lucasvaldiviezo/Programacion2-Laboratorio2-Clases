@@ -10,5 +10,11 @@ namespace CentralitaHerencia
     {
         private List<Llamada> listaDeLLamada;
         protected string razonSocial;
+
+        public Centralita()
+        {
+            listaDeLLamada = new List<Llamada>();
+
+        }
     }
 }

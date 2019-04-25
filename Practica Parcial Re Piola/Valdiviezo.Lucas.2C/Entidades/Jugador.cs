@@ -52,5 +52,15 @@ namespace Entidades
             }
             return retorno;
         }
+
+        public override bool ValidarAptitud()
+        {
+            bool retorno = false;
+            if(Edad < 40 && ValidarEstadoFisico())
+            {
+                retorno = true;
+            }
+            return retorno;
+        }
     }
 }

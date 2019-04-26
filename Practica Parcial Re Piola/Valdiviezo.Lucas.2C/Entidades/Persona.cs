@@ -41,8 +41,8 @@ namespace Entidades
         public virtual string Mostrar()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("||PERSONA||\nNombre: {0}\nApellido: {1}", Nombre, Apellido);
-            mostrar.AppendFormat("\nDNI: {0}\nEdad: {1}", Dni, Edad);
+            mostrar.AppendFormat(" Nombre: {0}\n Apellido: {1}", Nombre, Apellido);
+            mostrar.AppendFormat("\n DNI: {0}\n Edad: {1}", Dni, Edad);
             return mostrar.ToString();
         }
 

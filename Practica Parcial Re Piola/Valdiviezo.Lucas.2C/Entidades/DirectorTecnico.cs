@@ -29,7 +29,7 @@ namespace Entidades
         public override string Mostrar()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("||Directo Tecnico||\n{0}\nAños de Experencian: {1}", base.Mostrar(), AñosExperencia);
+            mostrar.AppendFormat("\n||Directo Tecnico||\n{0}\n Años de Experencian: {1}", base.Mostrar(), AñosExperencia);
             return mostrar.ToString();
         }
 

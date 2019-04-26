@@ -36,8 +36,8 @@ namespace Entidades
         {
             StringBuilder mostrar = new StringBuilder();
 
-            mostrar.AppendFormat("||Jugador||\n{0}\nPeso: {1}", base.Mostrar(), Peso);
-            mostrar.AppendFormat("\nAltura: {0}\nPosicion: {1}", Altura, Posicion);
+            mostrar.AppendFormat("\n||Jugador||\n{0}\n Peso: {1}", base.Mostrar(), Peso);
+            mostrar.AppendFormat("\n Altura: {0}\n Posicion: {1}", Altura, Posicion);
 
             return mostrar.ToString();
         }

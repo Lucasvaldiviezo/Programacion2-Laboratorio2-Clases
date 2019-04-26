@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace VistaForm
 {
-    public partial class Form1 : Form
+    public partial class FormDT : Form
     {
-        public Form1()
+        public FormDT()
         {
             InitializeComponent();
         }
+
+ 
     }
 }

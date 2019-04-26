@@ -100,6 +100,11 @@
             // nudDni
             // 
             this.nudDni.Location = new System.Drawing.Point(122, 177);
+            this.nudDni.Maximum = new decimal(new int[] {
+            99999999,
+            0,
+            0,
+            0});
             this.nudDni.Name = "nudDni";
             this.nudDni.Size = new System.Drawing.Size(120, 20);
             this.nudDni.TabIndex = 6;
@@ -133,6 +138,7 @@
             this.btnCrear.TabIndex = 10;
             this.btnCrear.Text = "Crear";
             this.btnCrear.UseVisualStyleBackColor = true;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
             // btnValidar
             // 
@@ -142,6 +148,7 @@
             this.btnValidar.TabIndex = 11;
             this.btnValidar.Text = "Validar";
             this.btnValidar.UseVisualStyleBackColor = true;
+            this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
             // FormDT
             // 
@@ -162,6 +169,7 @@
             this.Controls.Add(this.lblNombre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormDT";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormDT";
             ((System.ComponentModel.ISupportInitialize)(this.nudEdad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDni)).EndInit();

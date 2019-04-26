@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace VistaForm
 {
     public partial class FormDT : Form
     {
-        private Entidades.DirectorTecnico dt;
+        private DirectorTecnico dt;
 
         public FormDT()
         {
@@ -21,7 +22,7 @@ namespace VistaForm
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            dt = new Entidades.DirectorTecnico(txtNombre.Text, txtApellido.Text, (int)nudEdad.Value, (int)nudDni.Value, (int)nudExperiencia.Value);
+            dt = new DirectorTecnico(txtNombre.Text, txtApellido.Text, (int)nudEdad.Value, (int)nudDni.Value, (int)nudExperiencia.Value);
             MessageBox.Show("Se ha creado el DT", "DT",MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

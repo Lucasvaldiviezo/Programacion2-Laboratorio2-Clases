@@ -1,0 +1,6 @@
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\bin\Debug\Entidades.dll
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\bin\Debug\Entidades.pdb
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\obj\Debug\Entidades.dll
+D:\Programacion2-Laboratorio2\Practica Parcial Re Piola\Valdiviezo.Lucas.2C\Entidades\obj\Debug\Entidades.pdb

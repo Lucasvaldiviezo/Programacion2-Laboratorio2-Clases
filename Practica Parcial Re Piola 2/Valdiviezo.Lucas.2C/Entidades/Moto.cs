@@ -6,37 +6,43 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Automovil : Vehiculo
+    public class Moto : Vehiculo
     {
         public override bool Equals(object obj)
         {
-            return obj is Automovil;
+            return obj is Moto;
         }
 
-        private ConsoleColor color;
+        private int cilindrada;
+        private short ruedas;
         private static int valorHora;
 
-        static Automovil()
+        static Moto()
         {
-            valorHora = 50;
+            valorHora = 30;
+            ruedas = 2;
+        }
+        public Moto(string patente,int cilindrada) : base(patente)
+        {
+            this.cilindrada = cilindrada;
+            
+        }
+        public Moto(string patente,int cilindrada,short ruedas) : this(patente,cilindrada)
+        {
+            this.ruedas = ruedas;
         }
 
-        public Automovil(string patente,ConsoleColor color) : base(patente)
+        public Moto(string patente,int cilindrada,short ruedas,int valorHora) : this(patente,cilindrada,ruedas)
         {
-            this.color = color;
-        }
-
-        public Automovil(string patente, ConsoleColor color, int valorHora) : this(patente,color)
-        {
-            Automovil.valorHora = valorHora;
+            Moto.valorHora = valorHora;
         }
 
         public override string ConsultarDatos()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendLine("||Automovil||");
+            mostrar.AppendLine("||Moto||");
             mostrar.AppendLine(base.ImprimirTicket());
-            mostrar.AppendFormat(" Color: {0}\n Valor de Hora: {1}",color,valorHora);
+            mostrar.AppendFormat(" Cilindrada: {0}\n Ruedas: {1}\n Valor de Hora: {2}", cilindrada,ruedas, valorHora);
             return mostrar.ToString();
         }
 

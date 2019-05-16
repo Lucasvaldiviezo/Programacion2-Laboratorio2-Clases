@@ -1,0 +1,11 @@
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralitaHerencia.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralitaHerencia.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\bin\Debug\CentralitaHerencia.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.csproj.CopyComplete
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralTelefonica\obj\Debug\CentralTelefonica.pdb

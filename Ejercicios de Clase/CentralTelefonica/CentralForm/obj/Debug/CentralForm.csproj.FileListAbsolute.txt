@@ -1,0 +1,15 @@
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralForm.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralForm.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralForm.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralitaHerencia.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralitaHerencia.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\bin\Debug\CentralitaHerencia.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.FormMenu.resources
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.FrmLlamador.resources
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.Properties.Resources.resources
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.csproj.GenerateResource.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.csproj.CopyComplete
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.pdb

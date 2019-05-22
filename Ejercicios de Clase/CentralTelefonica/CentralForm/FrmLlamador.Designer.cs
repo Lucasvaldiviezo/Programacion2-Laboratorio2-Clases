@@ -30,18 +30,18 @@
         {
             this.txtNroDestino = new System.Windows.Forms.TextBox();
             this.groupBoxPanel = new System.Windows.Forms.GroupBox();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
             this.btnNumeral = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btnAsterisco = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.cmbFranja = new System.Windows.Forms.ComboBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
@@ -58,7 +58,6 @@
             this.txtNroDestino.Name = "txtNroDestino";
             this.txtNroDestino.Size = new System.Drawing.Size(323, 31);
             this.txtNroDestino.TabIndex = 0;
-            this.txtNroDestino.Text = "NroDestino";
             this.txtNroDestino.TextChanged += new System.EventHandler(this.txtNroDestino_TextChanged);
             // 
             // groupBoxPanel
@@ -82,32 +81,63 @@
             this.groupBoxPanel.TabStop = false;
             this.groupBoxPanel.Text = "Panel";
             // 
-            // btn3
+            // btnNumeral
             // 
-            this.btn3.Location = new System.Drawing.Point(106, 21);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(43, 40);
-            this.btn3.TabIndex = 6;
-            this.btn3.Text = "3";
-            this.btn3.UseVisualStyleBackColor = true;
+            this.btnNumeral.Location = new System.Drawing.Point(106, 159);
+            this.btnNumeral.Name = "btnNumeral";
+            this.btnNumeral.Size = new System.Drawing.Size(43, 40);
+            this.btnNumeral.TabIndex = 15;
+            this.btnNumeral.Text = "#";
+            this.btnNumeral.UseVisualStyleBackColor = true;
+            this.btnNumeral.Click += new System.EventHandler(this.btnNumeral_Click);
             // 
-            // btn2
+            // btn0
             // 
-            this.btn2.Location = new System.Drawing.Point(57, 21);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(43, 40);
-            this.btn2.TabIndex = 5;
-            this.btn2.Text = "2";
-            this.btn2.UseVisualStyleBackColor = true;
+            this.btn0.Location = new System.Drawing.Point(57, 159);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(43, 40);
+            this.btn0.TabIndex = 14;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
-            // btn1
+            // btnAsterisco
             // 
-            this.btn1.Location = new System.Drawing.Point(8, 21);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(43, 40);
-            this.btn1.TabIndex = 4;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = true;
+            this.btnAsterisco.Location = new System.Drawing.Point(8, 159);
+            this.btnAsterisco.Name = "btnAsterisco";
+            this.btnAsterisco.Size = new System.Drawing.Size(43, 40);
+            this.btnAsterisco.TabIndex = 13;
+            this.btnAsterisco.Text = "*";
+            this.btnAsterisco.UseVisualStyleBackColor = true;
+            this.btnAsterisco.Click += new System.EventHandler(this.btnAsterisco_Click);
+            // 
+            // btn9
+            // 
+            this.btn9.Location = new System.Drawing.Point(106, 113);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(43, 40);
+            this.btn9.TabIndex = 12;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            // 
+            // btn8
+            // 
+            this.btn8.Location = new System.Drawing.Point(57, 113);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(43, 40);
+            this.btn8.TabIndex = 11;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = true;
+            // 
+            // btn7
+            // 
+            this.btn7.Location = new System.Drawing.Point(8, 113);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(43, 40);
+            this.btn7.TabIndex = 10;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = true;
             // 
             // btn6
             // 
@@ -136,59 +166,32 @@
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
             // 
-            // btn9
+            // btn3
             // 
-            this.btn9.Location = new System.Drawing.Point(106, 113);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(43, 40);
-            this.btn9.TabIndex = 12;
-            this.btn9.Text = "9";
-            this.btn9.UseVisualStyleBackColor = true;
+            this.btn3.Location = new System.Drawing.Point(106, 21);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(43, 40);
+            this.btn3.TabIndex = 6;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = true;
             // 
-            // btn8
+            // btn2
             // 
-            this.btn8.Location = new System.Drawing.Point(57, 113);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(43, 40);
-            this.btn8.TabIndex = 11;
-            this.btn8.Text = "8";
-            this.btn8.UseVisualStyleBackColor = true;
+            this.btn2.Location = new System.Drawing.Point(57, 21);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(43, 40);
+            this.btn2.TabIndex = 5;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = true;
             // 
-            // btn7
+            // btn1
             // 
-            this.btn7.Location = new System.Drawing.Point(8, 113);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(43, 40);
-            this.btn7.TabIndex = 10;
-            this.btn7.Text = "7";
-            this.btn7.UseVisualStyleBackColor = true;
-            // 
-            // btnNumeral
-            // 
-            this.btnNumeral.Location = new System.Drawing.Point(106, 159);
-            this.btnNumeral.Name = "btnNumeral";
-            this.btnNumeral.Size = new System.Drawing.Size(43, 40);
-            this.btnNumeral.TabIndex = 15;
-            this.btnNumeral.Text = "#";
-            this.btnNumeral.UseVisualStyleBackColor = true;
-            // 
-            // btn0
-            // 
-            this.btn0.Location = new System.Drawing.Point(57, 159);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(43, 40);
-            this.btn0.TabIndex = 14;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = true;
-            // 
-            // btnAsterisco
-            // 
-            this.btnAsterisco.Location = new System.Drawing.Point(8, 159);
-            this.btnAsterisco.Name = "btnAsterisco";
-            this.btnAsterisco.Size = new System.Drawing.Size(43, 40);
-            this.btnAsterisco.TabIndex = 13;
-            this.btnAsterisco.Text = "*";
-            this.btnAsterisco.UseVisualStyleBackColor = true;
+            this.btn1.Location = new System.Drawing.Point(8, 21);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(43, 40);
+            this.btn1.TabIndex = 4;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = true;
             // 
             // cmbFranja
             // 

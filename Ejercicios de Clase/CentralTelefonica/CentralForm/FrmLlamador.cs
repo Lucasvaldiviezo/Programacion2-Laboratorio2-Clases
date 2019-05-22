@@ -56,5 +56,25 @@ namespace CentralForm
                 cmbFranja.Enabled = false;
             }
         }
+
+        private void btnNumeral_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "#";
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "0";
+        }
+
+        private void btnAsterisco_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "*";
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "9";
+        }
     }
 }

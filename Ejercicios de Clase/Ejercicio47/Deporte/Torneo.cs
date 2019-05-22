@@ -76,9 +76,9 @@ namespace Deporte
             System.Threading.Thread.Sleep(1000);
             int indice2 = random.Next(0, equipos.Count-1);
 
-            CalcularPartida(equipos[indice1], equipos[indice2]);
+            resultado = CalcularPartida(equipos[indice1], equipos[indice2]);
 
-
+            return resultado;
         }
     }
 }

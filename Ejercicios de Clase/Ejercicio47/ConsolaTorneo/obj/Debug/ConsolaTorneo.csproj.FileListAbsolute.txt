@@ -1,0 +1,10 @@
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\bin\Debug\ConsolaTorneo.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\bin\Debug\ConsolaTorneo.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\bin\Debug\ConsolaTorneo.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\bin\Debug\Deporte.dll
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\bin\Debug\Deporte.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\obj\Debug\ConsolaTorneo.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\obj\Debug\ConsolaTorneo.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\obj\Debug\ConsolaTorneo.csproj.CopyComplete
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\obj\Debug\ConsolaTorneo.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\ConsolaTorneo\obj\Debug\ConsolaTorneo.pdb

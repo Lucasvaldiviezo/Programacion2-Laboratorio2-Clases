@@ -1,0 +1,6 @@
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\bin\Debug\Deporte.dll
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\bin\Debug\Deporte.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\obj\Debug\Deporte.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\obj\Debug\Deporte.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\obj\Debug\Deporte.dll
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio47\Deporte\obj\Debug\Deporte.pdb

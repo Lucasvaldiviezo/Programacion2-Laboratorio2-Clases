@@ -11,6 +11,12 @@ namespace Deporte
         public string nombre;
         public DateTime fechaCreacion;
 
+
+        public Equipo(string nombre, DateTime fechaCreacion)
+        {
+            this.nombre = nombre;
+            this.fechaCreacion = fechaCreacion;
+        }
         public static bool operator ==(Equipo equipo1, Equipo equipo2)
         {
             bool retorno = false;
@@ -31,7 +37,7 @@ namespace Deporte
         {
             StringBuilder mostrar = new StringBuilder();
 
-            mostrar.AppendFormat("{0} fundado el {1}", nombre, fechaCreacion.ToString());
+            mostrar.AppendFormat("{0} fundado el {1}\n", nombre, fechaCreacion.ToString());
 
             return mostrar.ToString();
         }

@@ -11,6 +11,12 @@ namespace Deporte
         public string nombre;
         public List<T> equipos;
 
+        public Torneo(string nombre)
+        {
+           this.nombre = nombre;
+            equipos = new List<T>();
+        }
+
         public static bool operator ==(Torneo<T> t, T e)
         {
             bool retorno = false;
@@ -28,19 +34,18 @@ namespace Deporte
 
         public static bool operator !=(Torneo<T> t, T e)
         {
-            return (t == e);
+            return !(t == e);
         }
 
-        public static bool operator +(Torneo<T> t, T e)
+        public static Torneo<T> operator +(Torneo<T> t, T e)
         {
-            bool retorno = false;
+
             if(t != e)
             {
                 t.equipos.Add(e);
-                retorno = true;
             }
 
-            return retorno;
+            return t;
         }
 
         public string Mostrar()
@@ -62,8 +67,9 @@ namespace Deporte
             StringBuilder calcular = new StringBuilder();
             resultado1 = random.Next(0,10);
             System.Threading.Thread.Sleep(1000);
-            resultado2 = random.Next();
-            calcular.AppendFormat("[{0}] [{1}]-[{2}] [{3}]", equipo1.nombre, resultado1, equipo2.nombre, resultado2);
+            resultado2 = random.Next(0,10);
+            calcular.AppendLine("Equipo 1 - Resultados - Equipo2");
+            calcular.AppendFormat("[{0}]   [{1}]- [{2}]  [{3}]", equipo1.nombre, resultado1, resultado2,equipo2.nombre);
 
             return calcular.ToString();
         }
@@ -72,10 +78,16 @@ namespace Deporte
         {
             Random random = new Random();
             string resultado;
-            int indice1 = random.Next(0,equipos.Count-1);
-            System.Threading.Thread.Sleep(1000);
-            int indice2 = random.Next(0, equipos.Count-1);
+            int indice1; 
+            int indice2;
 
+            do
+            {
+                indice1 = random.Next(0, equipos.Count);
+                System.Threading.Thread.Sleep(1000);
+                indice2 = random.Next(0, equipos.Count);
+
+            } while (equipos[indice1] != equipos[indice2]);
             resultado = CalcularPartida(equipos[indice1], equipos[indice2]);
 
             return resultado;

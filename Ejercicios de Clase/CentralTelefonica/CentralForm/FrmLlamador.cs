@@ -43,18 +43,57 @@ namespace CentralForm
             string nroDestino = txtNroDestino.Text;
             string nroOrigen = txtNroOrigen.Text;
             Random random = new Random();
-            
+
+            if(txtNroDestino.Text != "" || txtNroDestino.Text[0] != '*')
+            {
+                if(txtNroDestino.Text[0] == '#')
+                {
+                    float duracion = (float)random.Next(1,50);
+                    Provincial.Franja miFranja = Provincial.Franja.Franja_1;
+                    switch (cmbFranja.Text)
+                    {
+                        case "Franja_1":
+                            miFranja = Provincial.Franja.Franja_1;
+                        break;
+                        case "Franja_2":
+                            miFranja = Provincial.Franja.Franja_2;
+                        break;
+                        case "Franja_3":
+                            miFranja = Provincial.Franja.Franja_3;
+                        break;
+                    }
+                    
+                    Provincial nuevaProvincial = new Provincial(txtNroOrigen.Text, miFranja , duracion, txtNroDestino.Text);
+                    System.Threading.Thread.Sleep(1000);
+                    centralita += nuevaProvincial;
+                    this.Close();
+                }
+                else
+                {
+                    float duracion = (float)random.Next(1,50);
+                    System.Threading.Thread.Sleep(1000);
+                    Local nuevoLocal = new Local(txtNroOrigen.Text, duracion, txtNroDestino.Text, 2.65f);
+                    centralita += nuevoLocal;
+                    this.Close();
+                }
+            }
+
         }
 
         private void txtNroDestino_TextChanged(object sender, EventArgs e)
         {
-            if(txtNroDestino.Text[0] == '#')
+            if(txtNroDestino.Text != "")
             {
-                cmbFranja.Enabled = true;
-            }else
-            {
-                cmbFranja.Enabled = false;
+                if (txtNroDestino.Text[0] == '#')
+                {
+                    cmbFranja.Enabled = true;
+                }
+                else
+                {
+                    cmbFranja.Enabled = false;
+                }
             }
+            
         }
 
         private void btnNumeral_Click(object sender, EventArgs e)
@@ -75,6 +114,46 @@ namespace CentralForm
         private void btn9_Click(object sender, EventArgs e)
         {
             txtNroDestino.Text += "9";
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "8";
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "7";
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "6";
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "5";
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "4";
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "3";
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "2";
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            txtNroDestino.Text += "1";
         }
     }
 }

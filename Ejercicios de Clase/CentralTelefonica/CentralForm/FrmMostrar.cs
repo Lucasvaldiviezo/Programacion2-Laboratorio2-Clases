@@ -19,9 +19,12 @@ namespace CentralForm
         }
 
         public Centralita centralita;
-        public FrmMostrar(Centralita centralita) : this()
+        public TipoLlamada nuevoTipo;
+        public FrmMostrar(Centralita centralita,TipoLlamada llamada) : this()
         {
             this.centralita = centralita;
+            this.nuevoTipo = llamada;
+
         }
     }
 }

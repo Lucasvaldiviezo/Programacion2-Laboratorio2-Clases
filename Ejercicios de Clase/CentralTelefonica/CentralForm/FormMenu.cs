@@ -25,5 +25,16 @@ namespace CentralForm
             FrmLlamador nuevoLlamada = new FrmLlamador(centralita);
             nuevoLlamada.ShowDialog();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnFacturacionLocal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar nuevoMostrar = new FrmMostrar(centralita,TipoLlamada.Local);
+            nuevoMostrar.ShowDialog();
+        }
     }
 }

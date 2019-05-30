@@ -62,6 +62,7 @@
             this.btnFacturacionLocal.TabIndex = 2;
             this.btnFacturacionLocal.Text = "Facturacion Local";
             this.btnFacturacionLocal.UseVisualStyleBackColor = true;
+            this.btnFacturacionLocal.Click += new System.EventHandler(this.btnFacturacionLocal_Click);
             // 
             // btnFacturacionProvincial
             // 
@@ -80,6 +81,7 @@
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // FormMenu
             // 

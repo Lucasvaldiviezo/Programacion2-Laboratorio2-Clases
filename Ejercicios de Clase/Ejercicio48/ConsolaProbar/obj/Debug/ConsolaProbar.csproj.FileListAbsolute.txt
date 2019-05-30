@@ -1,0 +1,10 @@
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\bin\Debug\ConsolaProbar.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\bin\Debug\ConsolaProbar.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\bin\Debug\ConsolaProbar.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\bin\Debug\Entidades.dll
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\bin\Debug\Entidades.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\obj\Debug\ConsolaProbar.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\obj\Debug\ConsolaProbar.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\obj\Debug\ConsolaProbar.csproj.CopyComplete
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\obj\Debug\ConsolaProbar.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio48\ConsolaProbar\obj\Debug\ConsolaProbar.pdb

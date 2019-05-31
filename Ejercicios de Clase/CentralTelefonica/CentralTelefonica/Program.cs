@@ -21,14 +21,69 @@ namespace CentralTelefonica
             Provincial l4 = new Provincial(Provincial.Franja.Franja_3, l2);
             // Las llamadas se irán registrando en la Centralita.
             // La centralita mostrará por pantalla todas las llamadas según las vaya registrando.
-            c += l1;
-            Console.WriteLine(c.ToString());
-            c += l2;
-            Console.WriteLine(c.ToString());
-            c += l3;
-            Console.WriteLine(c.ToString());
-            c += l4;
-            Console.WriteLine(c.ToString());
+            try {
+                c += l1;
+                Console.WriteLine(c.ToString());
+            }
+            catch(CentralitaException ex)
+            {
+                Console.WriteLine("Ocurrio el error: {0} \nEn la clase {1}\nEn el metodo {2}.",ex.Message,ex.NombreClase,ex.NombreMetodo);
+            }catch(Exception)
+            {
+                Console.WriteLine("Ocurrio un error inesperado.");
+            }
+            try
+            {
+                c += l2;
+                Console.WriteLine(c.ToString());
+            }
+            catch (CentralitaException ex)
+            {
+                Console.WriteLine("Ocurrio el error: {0} \nEn la clase {1}\nEn el metodo {2}.", ex.Message, ex.NombreClase, ex.NombreMetodo);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ocurrio un error inesperado.");
+            }
+            try
+            {
+                c += l3;
+                Console.WriteLine(c.ToString());
+            }
+            catch (CentralitaException ex)
+            {
+                Console.WriteLine("Ocurrio el error: {0} \nEn la clase {1}\nEn el metodo {2}.", ex.Message, ex.NombreClase, ex.NombreMetodo);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ocurrio un error inesperado.");
+            }
+            try
+            {
+                c += l3;
+                Console.WriteLine(c.ToString());
+            }
+            catch (CentralitaException ex)
+            {
+                Console.WriteLine("Ocurrio el error: {0} \nEn la clase {1}\nEn el metodo {2}.\n", ex.Message, ex.NombreClase, ex.NombreMetodo);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ocurrio un error inesperado.");
+            }
+            try
+            {
+                c += l4;
+                Console.WriteLine(c.ToString());
+            }
+            catch (CentralitaException ex)
+            {
+                Console.WriteLine("Ocurrio el error: {0} \nEn la clase {1}\nEn el metodo {2}.", ex.Message, ex.NombreClase, ex.NombreMetodo);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ocurrio un error inesperado.");
+            }
             c.OrdenarLlamadas();
             Console.WriteLine("--------------------------------");
             Console.WriteLine(c.ToString());

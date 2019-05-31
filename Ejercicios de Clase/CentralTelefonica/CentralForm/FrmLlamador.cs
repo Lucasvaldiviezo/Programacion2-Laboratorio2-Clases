@@ -65,7 +65,15 @@ namespace CentralForm
                     
                     Provincial nuevaProvincial = new Provincial(txtNroOrigen.Text, miFranja , duracion, txtNroDestino.Text);
                     System.Threading.Thread.Sleep(1000);
-                    centralita += nuevaProvincial;
+                    try
+                    {
+                        centralita += nuevaProvincial;
+                    }
+                    catch(CentralitaException ex)
+                    {
+                        MessageBox.Show(ex.Message,"Error en: "+ex.NombreMetodo, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    
                     this.Close();
                 }
                 else
@@ -73,7 +81,14 @@ namespace CentralForm
                     float duracion = (float)random.Next(1,50);
                     System.Threading.Thread.Sleep(1000);
                     Local nuevoLocal = new Local(txtNroOrigen.Text, duracion, txtNroDestino.Text, 2.65f);
-                    centralita += nuevoLocal;
+                    try
+                    {
+                        centralita += nuevoLocal;
+                    }
+                    catch (CentralitaException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Error en el " + ex.NombreMetodo, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                     this.Close();
                 }
             }

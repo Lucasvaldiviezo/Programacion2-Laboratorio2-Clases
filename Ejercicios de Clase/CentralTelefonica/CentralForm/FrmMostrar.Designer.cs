@@ -28,24 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTxtMostrar = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // richTxtMostrar
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(463, 281);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.richTxtMostrar.Location = new System.Drawing.Point(12, 12);
+            this.richTxtMostrar.Name = "richTxtMostrar";
+            this.richTxtMostrar.Size = new System.Drawing.Size(463, 281);
+            this.richTxtMostrar.TabIndex = 0;
+            this.richTxtMostrar.Text = "";
             // 
             // FrmMostrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 305);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTxtMostrar);
             this.Name = "FrmMostrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmMostrar";
             this.ResumeLayout(false);
 
@@ -53,6 +54,6 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTxtMostrar;
     }
 }

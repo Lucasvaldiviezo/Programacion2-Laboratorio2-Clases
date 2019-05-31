@@ -59,7 +59,7 @@ namespace CentralitaHerencia
         protected override string Mostrar()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("{0}\nEl costo es: {1}\nLa franja es: {2}", base.Mostrar(),CostoLlamada,franjaHoraria);
+            mostrar.AppendFormat("{0}El costo es: {1}\nLa franja es: {2}\n\n", base.Mostrar(),CostoLlamada,franjaHoraria);
             return mostrar.ToString();
         }
 

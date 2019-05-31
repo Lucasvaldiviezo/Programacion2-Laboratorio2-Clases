@@ -36,5 +36,17 @@ namespace CentralForm
             FrmMostrar nuevoMostrar = new FrmMostrar(centralita,TipoLlamada.Local);
             nuevoMostrar.ShowDialog();
         }
+
+        private void btnFacturacionProvincial_Click(object sender, EventArgs e)
+        {
+            FrmMostrar nuevoMostrar = new FrmMostrar(centralita, TipoLlamada.Provincial);
+            nuevoMostrar.ShowDialog();
+        }
+
+        private void btnFacturacionTotal_Click(object sender, EventArgs e)
+        {
+            FrmMostrar nuevoMostrar = new FrmMostrar(centralita, TipoLlamada.Todas);
+            nuevoMostrar.ShowDialog();
+        }
     }
 }

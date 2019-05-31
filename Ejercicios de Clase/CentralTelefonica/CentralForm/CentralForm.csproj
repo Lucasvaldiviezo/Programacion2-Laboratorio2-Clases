@@ -71,6 +71,9 @@
     <EmbeddedResource Include="FrmLlamador.resx">
       <DependentUpon>FrmLlamador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMostrar.resx">
+      <DependentUpon>FrmMostrar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

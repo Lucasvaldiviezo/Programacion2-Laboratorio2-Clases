@@ -39,7 +39,7 @@ namespace CentralitaHerencia
         protected override string Mostrar()
         {
             StringBuilder mostrar = new StringBuilder();
-            mostrar.AppendFormat("{0}\nEl costo es: {1}", base.Mostrar(),CostoLlamada);
+            mostrar.AppendFormat("{0}El costo es: {1}\n\n", base.Mostrar(),CostoLlamada);
             return mostrar.ToString();
         }
 

@@ -53,6 +53,7 @@
             this.btnFacturacionTotal.TabIndex = 1;
             this.btnFacturacionTotal.Text = "Facturacion Total";
             this.btnFacturacionTotal.UseVisualStyleBackColor = true;
+            this.btnFacturacionTotal.Click += new System.EventHandler(this.btnFacturacionTotal_Click);
             // 
             // btnFacturacionLocal
             // 
@@ -72,6 +73,7 @@
             this.btnFacturacionProvincial.TabIndex = 3;
             this.btnFacturacionProvincial.Text = "Facturacion Provincial";
             this.btnFacturacionProvincial.UseVisualStyleBackColor = true;
+            this.btnFacturacionProvincial.Click += new System.EventHandler(this.btnFacturacionProvincial_Click);
             // 
             // btnSalir
             // 

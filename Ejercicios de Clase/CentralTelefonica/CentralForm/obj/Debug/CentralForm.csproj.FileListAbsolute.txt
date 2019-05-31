@@ -13,3 +13,4 @@ D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\
 D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.csproj.CopyComplete
 D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.exe
 D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\CentralTelefonica\CentralForm\obj\Debug\CentralForm.FrmMostrar.resources

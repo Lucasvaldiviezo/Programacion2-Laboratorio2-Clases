@@ -39,7 +39,5 @@ namespace Acces
             comando.ExecuteNonQuery();
         }
 
-
-
     }
 }

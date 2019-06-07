@@ -12,11 +12,24 @@ namespace Entidades
         private string nombre;
         private string apellido;
 
+        public int ID
+        {
+            get { return id; }
+        }
+        public string Nombre
+        {
+            get { return nombre; }
+        }
+        public string Apellido
+        {
+            get { return apellido; }
+        }
+
         public Persona(string nombre, string apellido) : this(0,nombre,apellido)
         {
-
+            
         }
-        public Persona(int id, string nombre, string apellido)
+        public Persona(int id, string nombre, string apellido) 
         {
             this.id = id;
             this.nombre = nombre;

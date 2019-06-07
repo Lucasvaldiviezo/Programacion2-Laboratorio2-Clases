@@ -1,0 +1,6 @@
+D:\VisualStudio\Ejercicio60\Acces\bin\Debug\Acces.dll
+D:\VisualStudio\Ejercicio60\Acces\bin\Debug\Acces.pdb
+D:\VisualStudio\Ejercicio60\Acces\obj\Debug\Acces.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio60\Acces\obj\Debug\Acces.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio60\Acces\obj\Debug\Acces.dll
+D:\VisualStudio\Ejercicio60\Acces\obj\Debug\Acces.pdb

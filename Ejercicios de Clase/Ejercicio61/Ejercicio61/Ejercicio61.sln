@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseForm", "DataBaseForm\DataBaseForm.csproj", "{C338BD66-9626-4406-A085-01D4C4D6EB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{02D429DE-4230-4457-BB00-878BDF29B85F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C338BD66-9626-4406-A085-01D4C4D6EB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C338BD66-9626-4406-A085-01D4C4D6EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C338BD66-9626-4406-A085-01D4C4D6EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C338BD66-9626-4406-A085-01D4C4D6EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D429DE-4230-4457-BB00-878BDF29B85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D429DE-4230-4457-BB00-878BDF29B85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D429DE-4230-4457-BB00-878BDF29B85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D429DE-4230-4457-BB00-878BDF29B85F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8341319-9E33-4628-9874-74754D324A6C}
+	EndGlobalSection
+EndGlobal

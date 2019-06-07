@@ -1,0 +1,13 @@
+D:\VisualStudio\Ejercicio60\BaseForm\bin\Debug\BaseForm.exe.config
+D:\VisualStudio\Ejercicio60\BaseForm\bin\Debug\BaseForm.exe
+D:\VisualStudio\Ejercicio60\BaseForm\bin\Debug\BaseForm.pdb
+D:\VisualStudio\Ejercicio60\BaseForm\bin\Debug\Acces.dll
+D:\VisualStudio\Ejercicio60\BaseForm\bin\Debug\Acces.pdb
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.FormBase.resources
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.Properties.Resources.resources
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.csproj.GenerateResource.cache
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.csproj.CopyComplete
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.exe
+D:\VisualStudio\Ejercicio60\BaseForm\obj\Debug\BaseForm.pdb

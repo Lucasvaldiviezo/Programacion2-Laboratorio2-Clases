@@ -1,0 +1,26 @@
+D:\VisualStudio\Ejercicio68\FormPersona\bin\Debug\FormPersona.exe.config
+D:\VisualStudio\Ejercicio68\FormPersona\bin\Debug\FormPersona.exe
+D:\VisualStudio\Ejercicio68\FormPersona\bin\Debug\FormPersona.pdb
+D:\VisualStudio\Ejercicio68\FormPersona\bin\Debug\Entidades.dll
+D:\VisualStudio\Ejercicio68\FormPersona\bin\Debug\Entidades.pdb
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.FormPersona.resources
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.Properties.Resources.resources
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.GenerateResource.cache
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.CopyComplete
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.exe
+D:\VisualStudio\Ejercicio68\FormPersona\obj\Debug\FormPersona.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\bin\Debug\FormPersona.exe.config
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\bin\Debug\FormPersona.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\bin\Debug\FormPersona.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\bin\Debug\Entidades.dll
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\bin\Debug\Entidades.pdb
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.csprojAssemblyReference.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.FormPersona.resources
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.Properties.Resources.resources
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.GenerateResource.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.CoreCompileInputs.cache
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.csproj.CopyComplete
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.exe
+D:\Programacion2-Laboratorio2\Ejercicios de Clase\Ejercicio68\FormPersona\obj\Debug\FormPersona.pdb

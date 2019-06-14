@@ -13,10 +13,10 @@ namespace FormPrincipal
     public partial class FormPrincipal : Form
     {
         private FormTestDelegados nuevoTest;
+        private FormMostrar nuevoMostrar;
         public FormPrincipal()
         {
             InitializeComponent();
-            
             mostrarToolStripMenuItem.Enabled = false;
         }
 
@@ -26,14 +26,13 @@ namespace FormPrincipal
             nuevoTest.MdiParent = this;
             nuevoTest.Show();
         }
-        
-        public void DeshabilitarMostrar()
+
+        private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-            if(mostrarToolStripMenuItem.Enabled == true)
-            {
-                mostrarToolStripMenuItem.Enabled = false;
-            }
+            nuevoMostrar = new FormMostrar();
+            nuevoMostrar.MdiParent = this;
+            nuevoMostrar.Show();
+            nuevoTest.EventoNombre += nuevoMostrar.ActualizarNombre;
         }
 
         private void FormPrincipal_MdiChildActivate(object sender, EventArgs e)

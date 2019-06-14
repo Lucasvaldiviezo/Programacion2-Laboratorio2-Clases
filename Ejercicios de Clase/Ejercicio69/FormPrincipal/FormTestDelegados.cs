@@ -13,11 +13,16 @@ namespace FormPrincipal
     public partial class FormTestDelegados : Form
     {
         private FormPrincipal frmPrincipal;
+        public event FormMostrar.DelegadoNombre EventoNombre;
         public FormTestDelegados()
         {
             InitializeComponent();
             frmPrincipal = (FormPrincipal)this.MdiParent;
         }
 
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -45,7 +45,7 @@
             this.menuStripPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuStripPrincipal.Name = "menuStripPrincipal";
             this.menuStripPrincipal.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStripPrincipal.Size = new System.Drawing.Size(463, 24);
+            this.menuStripPrincipal.Size = new System.Drawing.Size(639, 24);
             this.menuStripPrincipal.TabIndex = 0;
             this.menuStripPrincipal.Text = "menuStripPrincipal";
             // 
@@ -76,12 +76,13 @@
             this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
             this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 310);
+            this.ClientSize = new System.Drawing.Size(639, 338);
             this.Controls.Add(this.menuStripPrincipal);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStripPrincipal;

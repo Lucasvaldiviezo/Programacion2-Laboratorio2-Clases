@@ -31,8 +31,9 @@ namespace FormPrincipal
         {
             nuevoMostrar = new FormMostrar();
             nuevoMostrar.MdiParent = this;
-            nuevoMostrar.Show();
             nuevoTest.EventoNombre += nuevoMostrar.ActualizarNombre;
+            nuevoMostrar.Show();
+            
         }
 
         private void FormPrincipal_MdiChildActivate(object sender, EventArgs e)

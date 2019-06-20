@@ -13,8 +13,12 @@ using Entidades;
 
 namespace Patentes
 {
+    public delegate void FinExposicionPatente(VistaPatente vp);
+    public delegate void MostrarPatente(object patente);
+    
     public partial class VistaPatente : UserControl
-    {        
+    {
+        public event FinExposicionPatente finExposion;
         public VistaPatente()
         {
             InitializeComponent();
@@ -32,11 +36,14 @@ namespace Patentes
 
                     // Llamar al hilo principal
                     // ALUMNO
-
+                    MostrarPatente mostrar = new MostrarPatente(this.MostrarPatente);
+                    object[] objs = new object[] { patente };
+                    this.Invoke(mostrar,objs);
                     Thread.Sleep(r.Next(2000, 5000));
 
                     // Agregar evento de que finalizó la exposición de la patente
                     // ALUMNO
+                    finExposion.Invoke(this);
                 }
                 catch (Exception) { }
             }

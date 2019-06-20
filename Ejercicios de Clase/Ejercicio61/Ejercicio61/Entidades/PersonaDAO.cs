@@ -37,7 +37,7 @@ namespace Entidades
             string auxNombre;
             string auxApellido;
             int auxId;
-            comando.CommandText = "SELECT ID,Nombre,Apellido FROM Personas";
+            comando.CommandText = "SELECT ID,Nombre,Apellido FROM dbo.Personita";
             conexion.Open();
             
             
@@ -59,7 +59,7 @@ namespace Entidades
             string auxApellido;
             int auxId;
             Persona p;
-            comando.CommandText = String.Format("SELECT ID,Nombre,Apellido FROM Personas WHERE ID = {0}", id);
+            comando.CommandText = String.Format("SELECT ID,Nombre,Apellido FROM dbo.Personita WHERE ID = {0}", id);
             SqlDataReader dataReader = comando.ExecuteReader();
             conexion.Open();
             if(dataReader.Read())
